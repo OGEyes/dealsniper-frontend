@@ -1,0 +1,30 @@
+export const C = {
+  bg: '#0c0f17',
+  bgDeep: '#070a11',
+  card: '#161a26',
+  cardHi: '#1c2133',
+  border: 'rgba(255,255,255,0.07)',
+  borderHi: 'rgba(255,255,255,0.14)',
+  text: '#ffffff',
+  textDim: '#8b94a8',
+  textMute: '#5b6478',
+  yes: '#22c55e',
+  yesBg: 'rgba(34,197,94,0.14)',
+  yesBgHi: 'rgba(34,197,94,0.22)',
+  no: '#ef4444',
+  noBg: 'rgba(239,68,68,0.14)',
+  noBgHi: 'rgba(239,68,68,0.22)',
+  accent: '#3b82f6',
+  accentBg: 'rgba(59,130,246,0.14)',
+  gold: '#f5b500',
+  pink: '#ff5277',
+} as const;
+
+export const F = {
+  regular: 'Geist_400Regular',
+  medium: 'Geist_500Medium',
+  semibold: 'Geist_600SemiBold',
+  bold: 'Geist_700Bold',
+  mono: 'GeistMono_400Regular',
+  monoSemibold: 'GeistMono_600SemiBold',
+} as const;
